@@ -172,3 +172,38 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Virtual Environments ---
+env/
+venv/
+.venv/
+
+# --- Build Artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Kaggle Credentials ---
+kaggle.json
+
+# --- Data & Outputs (adjust as needed) ---
+data/
+datasets/
+outputs/
+models/
+
+# --- Environment Files ---
+.env
+
+# --- OS & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
