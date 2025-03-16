@@ -24,3 +24,5 @@ kaggle>=1.5.12
 
 # Deep Learning for LSTM Models
 tensorflow>=2.4.0
+# Google Colab utilities (optional if running outside Colab)
+google-colab>=2.0.0
